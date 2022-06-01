@@ -27,7 +27,7 @@ function setUserName() {
         setUserName(); // 检查名字是否有输入/null
       } else {
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'U R' + myName;
+    myHeading.textContent = 'U R ' + myName;
   }
 }
 
