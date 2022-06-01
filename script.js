@@ -37,7 +37,7 @@ function setUserName() {
     setUserName();
   } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'I remember U are ' + storedName;
+    myHeading.textContent = 'I remember U are'+ " " + storedName;
   }
 
 
